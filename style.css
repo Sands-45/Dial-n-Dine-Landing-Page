@@ -28,11 +28,18 @@ summary {
   display: block;
 }
 
-#headset{
-	font-size: 25px;
-	padding: 0pc;
-	margin: 0px;
-	color: #fff;
+#headset {
+  font-size: 25px;
+  padding: 0pc;
+  margin: 0px;
+  color: #fff;
+}
+
+@media screen and (max-width: 479px) {
+  #welcome {
+    position: relative;
+    left: 13%;
+  }
 }
 
 audio,
